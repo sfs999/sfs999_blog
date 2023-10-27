@@ -24,8 +24,8 @@ jobs:
       - name: Install hexo dependencies
       # 下载 hexo-cli 脚手架及相关安装包
         run: |
-          npm install -g hexo-cli
-          npm install
+          npm install hexo-cli -g  
+          npm install hexo-deployer-git --save 
 
       - name: 缓存
         uses: actions/cache@v1
