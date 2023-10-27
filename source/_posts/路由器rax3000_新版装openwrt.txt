@@ -1,0 +1,6 @@
+ ssh -p 22 root@192.168.10.1
+
+superadmin
+1165114527
+
+opkg install libjson-script20210516_2021-05-16-b14c4688-2_arm_cortex-a7_neon-vfpv4.ipk
