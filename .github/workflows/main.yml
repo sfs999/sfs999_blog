@@ -41,9 +41,4 @@ jobs:
 
       - name: 部署博客
         run: 
-          hexo clean && hexo g && hexo douban && gulp
-          cd ./public
-          git init
-          git add .
-          git commit -m "Update"
-          git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}" master:main
+          hexo g -d
