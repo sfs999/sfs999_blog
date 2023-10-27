@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.1]
+        node-version: [10.X]
 
     steps:
       - name: 开始运行
